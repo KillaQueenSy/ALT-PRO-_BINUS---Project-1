@@ -1,20 +1,37 @@
-Bank Marketing Campaign
-Context
-The types of financial products used by the public are more varied. One financial product that is well-known to the public is term deposits. The term deposit mechanism is that a customer deposits a sum of money at a bank or a financial institution, and the money can only be withdrawn after a certain period of time. As compensation, customers will be given a fixed interest according to the nominal amount of money deposited.
+📘 Context
+Banks offer various financial products to the public, one of the most well-known being term deposits. A term deposit allows customers to deposit a certain amount of money into a financial institution for a fixed period. In return, the customer earns a fixed interest rate based on the deposited amount. The money can only be withdrawn after the agreed period.
 
-Nevertheless, as business entities with financial products and respective customers, banks still have to compete to not lose customers. One of the ways to acquire new customers is by conducting a marketing campaign.
-Features
-Customer profile
-age
-job
-balance
-housing
-loan
+Despite offering attractive financial products, banks still face strong competition and must strive to acquire and retain customers. One of the strategies employed is through targeted marketing campaigns.
 
-Marketing data
-contact: Contact communication type.
-month: Last contact month of the year.
-campaign: Number of contacts performed during this campaign and for this client.
-pdays: Number of days after the client was contacted from the previous campaign.
-poutcome: Outcome of the previous marketing campaign.
-deposit: Whether the customer deposits or not.
+This project focuses on predicting whether a customer will subscribe to a term deposit product based on their profile and marketing interaction data.
+
+🎯 Objective
+To build a predictive model that determines whether a customer will subscribe to a term deposit (deposit = yes/no) using various customer and marketing-related features.
+
+🧾 Features
+📌 Customer Profile
+age: Age of the customer
+
+job: Job type (e.g., admin, technician, blue-collar)
+
+balance: Account balance
+
+housing: Has a housing loan? (yes/no)
+
+loan: Has a personal loan? (yes/no)
+
+📌 Marketing Data
+contact: Type of communication used (e.g., cellular, telephone)
+
+month: Month of the last contact
+
+campaign: Number of contacts performed during this campaign for the client
+
+pdays: Number of days since the client was last contacted from a previous campaign (-1 if not previously contacted)
+
+poutcome: Outcome of the previous campaign (e.g., success, failure, unknown)
+
+deposit: Target variable — whether the client subscribed to a term deposit (yes/no)
+
+🚀 Goal
+Use this data to train a machine learning model that helps banks predict customer behavior and optimize their marketing strategies accordingly.
