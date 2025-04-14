@@ -35,3 +35,5 @@ deposit: Target variable — whether the client subscribed to a term deposit (ye
 
 🚀 Goal
 Use this data to train a machine learning model that helps banks predict customer behavior and optimize their marketing strategies accordingly.
+
+I'm Fixing myy old bad projects, i made it from the start
